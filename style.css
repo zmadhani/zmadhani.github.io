@@ -25,14 +25,18 @@ h2, h3 {
 	color:black;
 }
 h5 {
-	font-size:16px;
+	font-size:15px;
+	font-style:italic;
 	color:white;
 }
 p {
-	font-size:15px;
+	font-size:14px;
 	color:white;
 }
 li {
-	font-size:15px;
+	font-size:14px;
 	color:white;
+}
+.experience {
+	margin-left:20px;
 }
