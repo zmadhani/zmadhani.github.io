@@ -1,0 +1,27 @@
+#logo {
+	height: 40px;
+	margin-top: -10px;
+	padding-left: 50px;
+}
+#search {
+	height: 15px;
+}
+.navbar-form .form-control {
+    width: 600px;
+}
+.form-group {
+	padding-left: 50px;
+}
+.btn-default {
+	width:75px;
+	background-color: #F7F7F7;
+}
+.navbar-default {
+	background-color:white;
+}
+.fa-search {
+	color: gray;
+}
+#button {
+	margin-top:7px;
+}
