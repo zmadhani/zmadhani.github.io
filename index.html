@@ -44,24 +44,69 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Change Profile</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Add Account</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="#">Sign Out</a></li>
           </ul>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
 
-    <div class="jumbotron">
-      <!-- Put something here -->
-    </div>
+  </div><!-- /.container-fluid -->
+  </nav>
+
+<!--<div class="jumbotron">
+      Put something here
+    </div> -->
+  <div class="container-fluid">
     <div class="row">
-      <!-- Put something here -->
-    </div>
+      <!-- Making the sidebar -->
+      <div class="col-sm-1 col-md-2">
+        <div class="well bs-sidebar" id="sidebar">
+          <ul class="nav nav-pills nav-stacked" id= "sidebarlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Trending</a></li>
+            <li id="best">BEST OF YOUTUBE</a></li>
+              <ul class="sub-list">
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Gaming</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Live</a></li>
+                <li><a href="#">Spotlight</a></li>
+                <li><a href="#">360 Video</a></li> 
+              </ul>
+            <li><a href="#">Browse Channels</a></li>
+          </ul>
+        </div> <!--well bs-sidebar affix-->
+      </div> <!--col-md-2-->
+      <div class="col-sm-11 col-md-10">
+        <div class="row">
+                <p>Trending</p> 
+        </div>
+        <div class="row" id="content">
+          <div class="col-md-3">
+            <p><iframe width="250" height="150" src="https://www.youtube.com/embed/FaOSCASqLsE" frameborder="0" allowfullscreen></iframe>Star Wars Undercover Boss: Starkiller Base - SNL</p>
+          </div>
+          <div class="col-md-3">
+            <p><iframe width="250" height="150" src="https://www.youtube.com/embed/N9y61eSRPM8" frameborder="0" allowfullscreen></iframe>Fuller House - Teaser - Netflix [HD]</p>
+          </div>
+          <div class="col-md-3">
+            <p><iframe width="250" height="150" src="https://www.youtube.com/embed/I-Wvjn7rVvA" frameborder="0" allowfullscreen></iframe>10 Amazing Winter Life Hacks</p>
+          </div>
+          <div class="col-md-3">
+            <p><iframe width="250" height="150" src="https://www.youtube.com/embed/Nck6BZga7TQ" frameborder="0" allowfullscreen></iframe>Adele Carpool Karaoke</p>
+          </div>
+          </div>
+      </div> <!--col-md-10-->
+    </div> <!--row-->
+  </div>
+
+
   </div>
 </body>
 </html>
